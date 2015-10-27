@@ -1,5 +1,5 @@
 services:
-    th3mouk_cms_static_content.admin.static_content:
+    th3mouk.simple_content.admin.content:
         class: Th3Mouk\CMSSimpleContentManagerBundle\Admin\ContentAdmin
         arguments: [~, Th3Mouk\CMSSimpleContentManagerBundle\Entity\Content, SonataAdminBundle:CRUD]
         tags:

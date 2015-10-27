@@ -1,11 +1,11 @@
 services:
-    th3mouk.static_content.helper:
+    th3mouk.simple_content.helper:
         class: Th3Mouk\CMSSimpleContentManagerBundle\Helper\ContentHelper
         arguments: [@doctrine.orm.entity_manager]
 
-    th3mouk.static_content.twig:
+    th3mouk.simple_content.twig:
         class: Th3Mouk\CMSSimpleContentManagerBundle\Twig\ContentExtension
-        arguments: [@th3mouk.static_content.helper]
+        arguments: [@th3mouk.simple_content.helper]
         public: false
         tags:
             - { name: twig.extension }
