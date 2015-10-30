@@ -39,7 +39,7 @@ class Content
     /**
      * @var string
      *
-     * @ORM\Column(name="textValue", type="string", length=255)
+     * @ORM\Column(name="textValue", type="text")
      */
     private $textValue;
 
