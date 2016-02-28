@@ -50,8 +50,8 @@ class ContentAdmin extends Admin
             ))
             ->add('_action', 'actions', array(
                 'actions' => array(
-                    'show' => array(),
-                    'edit' => array(),
+                    'show'   => array(),
+                    'edit'   => array(),
                     'delete' => array(),
                 ),
             ))
