@@ -13,22 +13,21 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "^2.3",
-        "sonata-project/admin-bundle": "^2.3",
-        "egeloen/ckeditor-bundle": "*",
+        "php": "^5.3.9|^7.0",
+        "egeloen/ckeditor-bundle": "^4.0",
+        "sonata-project/admin-bundle": "^2.3|^3.0",
+        "symfony/config": "^2.3|^3.0",
+        "symfony/dependency-injection": "^2.3|^3.0",
+        "symfony/http-kernel": "^2.3|^3.0",
         "twig/twig": "^1.12"
     },
-    "require-dev": {
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Th3Mouk\\CMSSimpleContentManagerBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.x-dev"
         }
     }
 }
