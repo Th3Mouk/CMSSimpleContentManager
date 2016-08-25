@@ -60,6 +60,14 @@ class Content
     private $updatedAt;
 
     /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->textKey.'';
+    }
+
+    /**
      * Get id.
      *
      * @return int
@@ -163,13 +171,5 @@ class Content
     public function getUpdatedAt()
     {
         return $this->updatedAt;
-    }
-
-    /**
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->textKey.'';
     }
 }
